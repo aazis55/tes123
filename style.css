@@ -1,0 +1,193 @@
+body {
+    background-image: url(https://infini4d.vip/_next/static/media/page-bg.21ec5cc1.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+
+
+  .row {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -0.5);
+    margin-bottom: var(--bs-gutter-y);
+    margin-right: calc(var(--bs-gutter-x)* -0.5);
+    margin-left: calc(var(--bs-gutter-x)* -0.5);
+  }
+
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+  }
+
+  /* CSS untuk menentukan posisi navbar */
+  .navbar {
+    display: flex;
+  }
+
+  /* CSS untuk mengatur ruang antara item navbar */
+  .navbar-nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .navbar-toggler {
+    background-color: #ffffff;
+  }
+
+  /* tes */
+  .table-responsive {
+    font-size: .9rem;
+    width: 100%;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+
+  .mt-3 {
+    margin-top: 1rem !important;
+  }
+
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    caption-side: bottom;
+    border-collapse: collapse;
+  }
+
+  .table-responsive thead {
+    color: #fff;
+    background: #140000;
+    background: linear-gradient(0deg, #140000 22%, #290101 49%, #5f3702 51%, #390c00 99%);
+    font-size: .85rem;
+  }
+
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    border: 0 solid;
+    border-color: inherit;
+  }
+
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    border: 0 solid;
+    border-color: inherit;
+  }
+
+  .table-responsive .radius-left,
+  .table-responsive td:first-child,
+  .table-responsive th:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+
+  .table-responsive td,
+  .table-responsive th {
+    border: 1px solid #ff9c00;
+  }
+
+  .table-responsive th {
+    font-weight: 400;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000000;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+
+  .mt-3 {
+    margin-top: 0rem !important;
+  }
+
+  h3.text-center {
+    color: moccasin;
+  }
+
+  /* and tes */
+
+  .border-success {
+    border-color: #ffffff !important;
+  }
+
+  .card-body.text-success {
+    background-color: black;
+    text-align: center;
+  }
+
+  .card-footer.bg-transparent.border-success {
+    font-size: small;
+    text-align: center;
+  }
+
+  .bg-transparent {
+    background-color: #634311 !important;
+  }
+
+  div#content1 {
+    background-color: black;
+    font-size: small;
+  }
+
+  div#content2 {
+    background-color: black;
+    font-size: small;
+  }
+
+  div#content3 {
+    background-color: black;
+    font-size: small;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+
+  /* Waktu */
+
+        #clock {
+            font-weight: bold;
+            font-size: 3em;
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(0, 0, 0);
+        }
+        #date {
+            font-size: 1.5em;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            
+        }
+ /* and waktu */
